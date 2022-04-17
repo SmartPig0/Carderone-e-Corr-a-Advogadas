@@ -11,6 +11,7 @@ body {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     max-width: 100%;
+    color: #342F31;
 }
 
 h1 {
@@ -59,5 +60,23 @@ h4 {
 }
 
 .img-logo img {
+    width: 100%;
+}
+
+.line {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    border-bottom: solid 1px #DFC7A2;
+}
+
+footer {
+    background: #342F31;
+    color: #DFC7A2;
+    font-size: 13px;
+    font-style: italic;
+    height: 200px;
+    }
+
+main img {
     width: 100%;
 }
