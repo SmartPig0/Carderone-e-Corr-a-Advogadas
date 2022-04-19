@@ -20,6 +20,12 @@ h1 {
 
 h2 {
     text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+h3 {
+    font-weight: 200;
 }
 
 h4 {
@@ -33,12 +39,20 @@ h4 {
     padding: 10px;
 }
 
+.buttons a{
+    text-decoration: none;
+}
+
 .button1{
     width: 220px;
     height: 40px;
     border-radius: 20px;
     text-align: center;
-    border: solid 1px red;
+    border: solid 1px #DFC7A2;
+    background: #fff;
+    box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
+    font-size: medium;
+    margin-bottom: 20px;
 }
 
 .button2{
@@ -46,8 +60,11 @@ h4 {
     height: 40px;
     border-radius: 20px;
     text-align: center;
-    border: solid 1px red;
-    margin-top: 20px;
+    border: solid 1px #DFC7A2;
+    background: #fff;
+    box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
+    font-size: medium;
+    margin-bottom: 20px;
 }
 
 .button3{
@@ -55,8 +72,22 @@ h4 {
     height: 40px;
     border-radius: 20px;
     text-align: center;
-    border: solid 1px red;
-    margin-top: 20px;
+    border: solid 1px #DFC7A2;
+    background: #fff;
+    box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+.button{
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    border: solid 1px #DFC7A2;
+    box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.274);
+    margin-bottom: 20px;
+    background: #fff;
 }
 
 .img-logo img {
@@ -74,9 +105,21 @@ footer {
     color: #DFC7A2;
     font-size: 13px;
     font-style: italic;
-    height: 200px;
+    height: 150px;
     }
 
 main img {
     width: 100%;
+}
+
+.location h2{
+    margin-bottom: 20px;
+}
+
+.location{
+    margin-bottom: 20px;
+}
+
+.final {
+    margin-top: 40px;
 }
