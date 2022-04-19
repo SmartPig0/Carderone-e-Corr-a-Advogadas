@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -26,10 +30,13 @@ h2 {
 
 h3 {
     font-weight: 200;
+    margin-left: 5px;
+    margin-right: 3px;
 }
 
 h4 {
     text-align: center;
+    font-size: 10px;
 }
 
 .buttons {
@@ -110,6 +117,7 @@ footer {
 
 main img {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .location h2{
@@ -122,4 +130,25 @@ main img {
 
 .final {
     margin-top: 40px;
+}
+
+#about {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#history{
+    margin-bottom: 20px;
+}
+
+#contact{
+    margin-bottom: 20px;
+}
+
+#location{
+    margin-bottom: 20px;
+}
+
+#map {
+    max-width: 100%;
 }
