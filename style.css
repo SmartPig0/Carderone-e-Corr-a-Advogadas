@@ -186,19 +186,22 @@ main img {
         background-color: #DFC7A2;
         opacity: 60%;
     }
-
-    main{
-      
-    }
-
+    
     .values{
-        
+        display: flex;
+        flex-direction: row;
     }
 }   
     .ourhistory{
-
+        display: flex;
+        flex-direction: row;
     }
 
-    .contacts{
+    .contactus{
+        display: flex;
+        flex-direction: row;
+    }
 
+    #map {
+        width: 100%;
     }
