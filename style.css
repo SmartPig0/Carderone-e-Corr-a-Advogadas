@@ -183,7 +183,7 @@ main img {
         background-image: url(./lib/advogados\ imagem\ mesa\ de\ proposta\ .jpg);
         background-size:100%;
         background-repeat: no-repeat;
-        height: 120px;
+        height: 200px;
     }
 
     .img-logo img{
@@ -191,8 +191,7 @@ main img {
     }
     
 
-    main img {
-        
+    main img {        
         width: 40%;
         margin-bottom: 20px;
     }
