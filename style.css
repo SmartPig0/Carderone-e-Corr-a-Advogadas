@@ -6,7 +6,7 @@
 }
 
 :root {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 html {
@@ -101,6 +101,11 @@ h4 {
     background: #fff;
 }
 
+.img-logo {
+    width: 100%;
+    
+}
+
 .img-logo img {
     width: 100%;
 }
@@ -157,13 +162,37 @@ main img {
     max-width: 100%;
 }
 
+.values{
+    display: flex;
+    flex-direction: column;
+}
+   
+.ourhistory{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus{
+    display: flex;
+    flex-direction: column;
+}
+
 @media (min-width:500px){
    
-    .img-logo img {
-       height: 250px;
+    .img-logo {
+        background-image: url(./lib/advogados\ imagem\ mesa\ de\ proposta\ .jpg);
+        background-size:100%;
+        background-repeat: no-repeat;
+        height: 120px;
     }
 
+    .img-logo img{
+        visibility: hidden;
+    }
+    
+
     main img {
+        
         width: 40%;
         margin-bottom: 20px;
     }
@@ -191,7 +220,7 @@ main img {
         display: flex;
         flex-direction: row;
     }
-}   
+  
     .ourhistory{
         display: flex;
         flex-direction: row;
@@ -205,3 +234,4 @@ main img {
     #map {
         width: 100%;
     }
+}
