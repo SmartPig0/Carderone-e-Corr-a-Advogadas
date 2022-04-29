@@ -193,6 +193,10 @@ main img {
     flex-direction: column;
 }
 
+#carousel {
+    width: 200%;
+}
+
 @media (min-width:500px){
    
     .img-logo {
