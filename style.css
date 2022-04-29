@@ -197,6 +197,7 @@ main img {
     width: 100%;
 }
 
+
 .spanclass {
     text-decoration: underline;
 }
@@ -252,10 +253,12 @@ main img {
         flex-direction: column;
         align-items: center;
     }
+    
 
     .area2{
         display: flex;
         flex-direction: row;
+        gap: 5px;    
     }
 
     
