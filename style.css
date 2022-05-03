@@ -21,6 +21,9 @@ body {
     max-width: 100%;
     color: #342F31;
 }
+main {
+    margin: 30px;
+}
 
 h1 {
     text-align: center;   
@@ -52,11 +55,13 @@ h4 {
 
 p {
     font-size: 1.4em;
-    margin-left: 5px;
-    margin-right: 3px;
+    margin: 40px;
+    text-align:justify;
+    line-height: 1.5em;    
+}
+
+.p-contact{
     text-align: center;
-    line-height: 1.5em;
-    
 }
 
 .buttons {
@@ -186,6 +191,8 @@ main img {
 .ourhistory{
     display: flex;
     flex-direction: column;
+    background: #342F31;
+    color: #DFC7A2;
 }
 
 .contactus{
@@ -199,8 +206,23 @@ main img {
 
 
 .spanclass {
-    text-decoration: underline;
+    
+    line-height: 60px;
 }
+
+.area2{
+    display: flex;
+    flex-direction: row;
+    gap: 5px; 
+    background: #342F31;   
+    color: #DFC7A2;
+}
+
+.areaatuacao{
+    background: #342F31;
+    color: #DFC7A2;
+}
+
 @media (min-width:500px){
    
     .img-logo {
@@ -221,8 +243,7 @@ main img {
 
     .buttons{
         flex-direction: row;
-        justify-content:space-evenly;
-        
+        justify-content:space-evenly;        
     }
 
     .button1:hover{
@@ -254,14 +275,7 @@ main img {
         align-items: center;
     }
     
-
-    .area2{
-        display: flex;
-        flex-direction: row;
-        gap: 5px;    
-    }
-
-    
+      
     #map {
         width: 100%;
     }
