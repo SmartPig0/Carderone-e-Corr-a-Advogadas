@@ -21,9 +21,6 @@ body {
     max-width: 100%;
     color: #342F31;
 }
-main {
-    margin: 30px;
-}
 
 h1 {
     text-align: center;   
@@ -150,6 +147,20 @@ main img {
     margin-bottom: 20px;
 }
 
+
+.button1:hover{
+    background-color: #DFC7A2;
+    opacity: 60%;
+}
+.button2:hover{
+    background-color: #DFC7A2;
+    opacity: 60%;
+}
+.button3:hover{
+    background-color: #DFC7A2;
+    opacity: 60%;
+}
+
 .location h2{
     margin-bottom: 20px;
 }
@@ -198,6 +209,7 @@ main img {
 .contactus{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #carousel {
@@ -212,7 +224,7 @@ main img {
 
 .area2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 5px; 
     background: #342F31;   
     color: #DFC7A2;
@@ -236,6 +248,10 @@ main img {
         visibility: hidden;
     }    
 
+    main {
+        margin: 30px;
+    }
+
     main img {        
         width: 40%;
         margin-bottom: 20px;
@@ -243,39 +259,10 @@ main img {
 
     .buttons{
         flex-direction: row;
-        justify-content:space-evenly;        
+        justify-content:space-evenly;    
+        margin-bottom: -50px;    
     }
-
-    .button1:hover{
-        background-color: #DFC7A2;
-        opacity: 60%;
-    }
-    .button2:hover{
-        background-color: #DFC7A2;
-        opacity: 60%;
-    }
-    .button3:hover{
-        background-color: #DFC7A2;
-        opacity: 60%;
-    }
-    
-    .values{
-        display: flex;
-        flex-direction: row;
-    }
-  
-    .ourhistory{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .contactus{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-      
+     
     #map {
         width: 100%;
     }
@@ -284,11 +271,24 @@ main img {
         font-size: 1.5em;
     }
 
-    #carousel {
-        width: 200%;
-    }
-
     p{
         font-size: 1.5em;
     }
+
+    .area2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ourhistory{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .values{
+        display: flex;
+        flex-direction: row;
+    }
+
+   
 }
