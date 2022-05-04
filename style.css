@@ -30,29 +30,23 @@ h2 {
     text-align: center;
     font-style: italic;
     margin-top: 10px;
+    font-size: 0.8rem;
 }
 
 #h2-id{
     font-style: normal;
 }
 
-h3 {
-    font-size: 1em;
-    margin-left: 5px;
-    margin-right: 3px;
-    text-align: center;
-    line-height: .5em;
-    font-style:italic
-}
+
 
 h4 {
     text-align: center;
-    font-size: .5rem;
+    font-size: .2rem;
 }
 
 p {
     font-size: 1.4em;
-    margin: 20px;
+    margin: 10px;
     text-align:justify;
     line-height: 1.5em;    
 }
@@ -179,7 +173,7 @@ main img {
 }
 
 #history{
-    margin-bottom: 20px;
+    padding: 15px;
 }
 
 #contact{
@@ -197,6 +191,7 @@ main img {
 .values{
     display: flex;
     flex-direction: column;
+    margin-bottom: -20px;
 }
    
 .ourhistory{
@@ -249,7 +244,7 @@ main img {
     }    
 
     main {
-        margin: 30px;
+        margin: 10px;
     }
 
     main img {        
@@ -272,7 +267,7 @@ main img {
     }
 
     p{
-        margin: 40px;
+        margin: 20px;
         font-size: 1.5em;
     }
 
@@ -291,5 +286,12 @@ main img {
         flex-direction: row;
     }
 
-   
+   #about{
+       padding: 20px;
+       margin-bottom: -20px;
+   }
+
+   .carousel-img{
+       margin: 50px;
+   }
 }
