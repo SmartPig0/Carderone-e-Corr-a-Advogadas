@@ -292,6 +292,12 @@ main img {
    }
 
    .carousel-img{
-       margin: 50px;
+       margin-left: 20px;
+       width: 100%;
    }
+
+   .carousel-img2{
+    margin-right: 20px;
+    width: 100%;
+}
 }
