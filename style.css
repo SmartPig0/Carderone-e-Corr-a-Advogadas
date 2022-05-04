@@ -41,7 +41,7 @@ h2 {
 
 h4 {
     text-align: center;
-    font-size: .2rem;
+    font-size: .1em;
 }
 
 p {
@@ -293,11 +293,14 @@ main img {
 
    .carousel-img{
        margin-left: 20px;
+       margin-top: 20px;
        width: 100%;
    }
 
    .carousel-img2{
     margin-right: 20px;
     width: 100%;
+    margin-top: 10px;
 }
+
 }
