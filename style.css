@@ -64,7 +64,14 @@ p {
 
 .buttons a{
     text-decoration: none;
+    color: #DFC7A2;
 }
+
+.buttons a:hover{
+    text-decoration: none;
+    color: #342F31;
+}
+
 
 .button1{
     width: 220px;
@@ -72,7 +79,7 @@ p {
     border-radius: 20px;
     text-align: center;
     border: solid 1px #DFC7A2;
-    background: #fff;
+    background: #342F31;
     box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
     font-size: medium;
     margin-bottom: 20px;
@@ -84,7 +91,7 @@ p {
     border-radius: 20px;
     text-align: center;
     border: solid 1px #DFC7A2;
-    background: #fff;
+    background: #342F31;
     box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
     font-size: medium;
     margin-bottom: 20px;
@@ -96,7 +103,7 @@ p {
     border-radius: 20px;
     text-align: center;
     border: solid 1px #DFC7A2;
-    background: #fff;
+    background: #342F31;
     box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
     font-size: medium;
     margin-bottom: 20px;
@@ -144,15 +151,14 @@ main img {
 
 .button1:hover{
     background-color: #DFC7A2;
-    opacity: 60%;
 }
 .button2:hover{
     background-color: #DFC7A2;
-    opacity: 60%;
+    
 }
 .button3:hover{
     background-color: #DFC7A2;
-    opacity: 60%;
+ 
 }
 
 .location h2{
@@ -293,14 +299,36 @@ main img {
 
    .carousel-img{
        margin-left: 20px;
-       margin-top: 20px;
+       margin-top: 25px;
        width: 100%;
    }
 
    .carousel-img2{
     margin-right: 20px;
     width: 100%;
-    margin-top: 10px;
-}
+    margin-top: 25px;
+   }
 
+   .card-body{
+       text-align: center;
+       cursor: pointer;
+       color: #342F31;
+   }
+
+   .card-body a{
+       color: #DFC7A2;
+       background-color: #342F31;
+       border-color: #342f31;
+   }
+
+   .card-body a:hover{
+       color: #342F31;
+       background-color: #DFC7A2;
+       border-color: #DFC7A2 ;
+   }
+
+   .card-body:hover{
+       transform: scale(1.005);
+   }
+   
 }
