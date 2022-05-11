@@ -319,7 +319,9 @@ main img {
        text-align: center;
        cursor: pointer;
        color: #342F31;
-   }
+       background: #DFC7A2;
+       
+    }
 
    .card-body a{
        color: #DFC7A2;
