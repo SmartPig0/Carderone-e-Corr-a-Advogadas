@@ -225,8 +225,9 @@ main img {
 
 
 .spanclass {
-    
-    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
 }
 
 .area2{
@@ -285,6 +286,18 @@ main img {
 .init-hidden-off{
     opacity: 1;
 }
+
+#col-img{    
+    margin: 10px;
+    margin-right:-30px;
+    margin-top: 10px;
+}
+
+#col-img2{    
+    margin: 10px;
+    margin-left:-30px;
+}
+
 
 
 @media (min-width:500px){
