@@ -80,7 +80,7 @@ p {
     border-radius: 10px;
     text-align: center;
     border: solid 1px #DFC7A2;
-    background: #342F31;
+    background: #fff; 
     box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
     font-size: medium;
     margin-bottom: 20px;
@@ -93,7 +93,7 @@ p {
     border-radius: 10px;
     text-align: center;
     border: solid 1px #DFC7A2;
-    background: #342F31;
+    background: #fff;
     box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
     font-size: medium;
     margin-bottom: 20px;
@@ -106,7 +106,7 @@ p {
     border-radius: 10px;
     text-align: center;
     border: solid 1px #DFC7A2;
-    background: #342F31;
+    background: #fff;
     box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
     font-size: medium;
     margin-bottom: 20px;
@@ -242,6 +242,32 @@ main img {
     color: #DFC7A2;
 }
 
+.wpp-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.btn-wpp-m{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button4{
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: solid 1px #DFC7A2;
+    background: none;
+    /*box-shadow: 1px 1px 1px 1px rgba(173, 173, 173, 0.3);*/
+    font-size: medium;
+    margin-bottom: 20px;
+    color: #DFC7A2;
+}
+
 @media (min-width:500px){
    
     .img-logo {
@@ -298,6 +324,10 @@ main img {
         flex-direction: row;
     }
 
+    .values img{
+        width: 30%;
+    }
+
    #about{
        padding: 20px;
        margin-bottom: -20px;
@@ -313,6 +343,10 @@ main img {
     margin-right: 20px;
     width: 50%;
     margin-top: 25px;
+   }
+
+   .cards{
+       margin: 10px;
    }
 
    .card-body{
