@@ -268,6 +268,13 @@ main img {
     color: #DFC7A2;
 }
 
+.submmit-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
 @media (min-width:500px){
    
     .img-logo {
