@@ -274,6 +274,18 @@ main img {
     margin-bottom: 15px;
 }
 
+.animate__animated.animate__fadeInLeft.animate__fadeInRight{
+ --animate-duration: 2s;
+ }
+
+.init-hidden{
+    opacity: 0;
+}
+
+.init-hidden-off{
+    opacity: 1;
+}
+
 
 @media (min-width:500px){
    
