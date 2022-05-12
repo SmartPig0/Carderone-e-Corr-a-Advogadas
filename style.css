@@ -277,7 +277,6 @@ main img {
     color: #DFC7A2;
 }
 
-
 .submmit-btn{
     display: flex;
     justify-content: center;
@@ -335,7 +334,7 @@ main img {
 
 .card-body a:hover{
     color: #342F31;
-    background-color: #DFC7A2;
+    background-color: #342F31;
     border-color: #DFC7A2 ;
 }
 
@@ -504,6 +503,7 @@ form{
      width: 500px;
      margin-left: -20px;
  }
+
 
 @media (min-width:500px){
    
