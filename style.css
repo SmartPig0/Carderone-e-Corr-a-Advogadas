@@ -23,13 +23,15 @@ body {
 }
 
 h1 {
-    text-align: center;   
+    text-align: center;
+    color: #342F31;   
 }
 
 h2 {
     text-align: center;
     margin-top: 10px;
     font-size: 0.8rem;
+    color: #342F31;
 }
 
 #h2-id{
@@ -47,7 +49,8 @@ p {
     font-size: 1.4em;
     margin: 10px;
     text-align:justify;
-    line-height: 1.5em;    
+    line-height: 1.5em;   
+    
 }
 
 .buttons {
@@ -75,7 +78,7 @@ p {
     border-radius: 10px;
     text-align: center;
     border: solid 1px #DFC7A2;
-    background: #fff; 
+    background: #342F31; 
     box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
     font-size: medium;
     margin-bottom: 20px;
@@ -88,7 +91,7 @@ p {
     border-radius: 10px;
     text-align: center;
     border: solid 1px #DFC7A2;
-    background: #fff;
+    background: #342F31;
     box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
     font-size: medium;
     margin-bottom: 20px;
@@ -101,7 +104,7 @@ p {
     border-radius: 10px;
     text-align: center;
     border: solid 1px #DFC7A2;
-    background: #fff;
+    background: #342F31;
     box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
     font-size: medium;
     margin-bottom: 20px;
@@ -288,12 +291,13 @@ main img {
 #col-img{    
     margin: 10px;
     margin-right:-30px;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 #col-img2{    
     margin: 10px;
     margin-left:-30px;
+    margin-top: 40px;
 }
 
 .efeito-vidro{ 
@@ -358,6 +362,10 @@ form{
     width: 60%;
 }
 
+.p-first{
+    color: #342F31;
+}
+
 .p-footer{
     text-align: center;
     align-items: center;
@@ -375,7 +383,7 @@ form{
 }
 
 .social-medias-png img{
-    width: 70px;
+    width: 50px;
     margin: 5px;
 }
 
@@ -420,6 +428,26 @@ form{
     box-shadow: none;
 }
 
+.social-medias-png img:hover{
+    transform:scale(1.2);
+}
+
+.girls{
+    text-align: left;
+}
+
+.girls2{
+   text-align: right;
+}
+
+.girls,.girls2{
+    font-size: 1rem;    
+    margin: -20px 0 0 0;
+}
+
+.p-txt-break{
+    margin-top: -10px;
+}
 @media (min-width:500px){
    
     .img-logo {
