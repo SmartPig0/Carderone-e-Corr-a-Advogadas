@@ -311,9 +311,8 @@ main img {
 
 .card-body{
     text-align: center;
-    cursor: pointer;
-    color: #342F31;
-    height: 400px;        
+   color: #342F31;
+    height: 65vh;        
  }
 
 .card-body a{
@@ -335,7 +334,7 @@ main img {
 .card-text{
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 1.1rem;
     text-align: center;
 }
 
@@ -408,6 +407,17 @@ form{
 #btn-collapse:focus{
     box-shadow: none;
     border: solid 1px #DFC7A2;
+}
+
+#btn-more{
+    background: #342F31;
+    color: #DFC7A2;
+    border: #DFC7A2;
+}
+
+#btn-more:focus{
+    border: solid 1px #DFC7A2;
+    box-shadow: none;
 }
 
 @media (min-width:500px){
