@@ -37,18 +37,19 @@
         </div>
         <div class="line"></div>
         <div class="areaatuacao">
-       <h1>LoremIpsumDollorsitametconsectetur</h1>
+          <h1 id="history">ÁREAS DE ATUAÇÃO</h1>
           <div class="cards">
             <div class="row justify-content-md-center">
               <div class="col-sm-3">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title"><strong>DIREITO DO CONSUMIDOR</strong></h5>
-                    <span class="material-symbols-rounded" id="icons">
+                    <span class="material-symbols-rounded" id="icon-cost">
                       receipt_long
                       </span>
                     <p class="card-text">O Direito do Consumidor é o ramo do direito que lida com as relações jurídicas entre fornecedores de bens e serviços e seus consumidores.</p>
-                    <a href="#" class="btn btn-primary">Mais Informações</a>
+                    <!--Os modais estão no final do código-->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCostumer">Mais Informações</button>
                   </div>
                 </div>
               </div>
@@ -56,11 +57,11 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title"><strong>DIREITO TRABALHISTA E PREVIDÊNCIÁRIO</strong></h5>
-                    <span class="material-symbols-rounded" id="icons">
+                    <span class="material-symbols-rounded" id="icon-work">
                       business_center
                       </span>
                     <p class="card-text">Direito Trabalhista é o conjunto de normas jurídicas que regem as relações de trabalho e/ou emprego.</p>
-                    <a href="#" class="btn btn-primary">Mais Informações</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalWork">Mais Informações</button>
                   </div>
                 </div>
               </div>
@@ -68,11 +69,11 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title"><strong>DIREITO CIVIL</strong></h5>
-                    <span class="material-symbols-rounded" id="icons">
+                    <span class="material-symbols-rounded" id="icon-law">
                       gavel
                       </span>
                     <p class="card-text">O Direito  Civil é aquele  que estuda as relações de ordem privada, concernente aos direitos de personalidade, aos bens privados, os contratos, entre outros.</p>
-                    <a href="#" class="btn btn-primary">Mais Informações</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalPerson">Mais Informações</button>
                   </div>
                 </div>
               </div>
@@ -80,11 +81,11 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title"><strong>ASSESSORIA IMOBILIÁRIA</strong></h5>
-                    <span class="material-symbols-rounded" id="icons">
+                    <span class="material-symbols-rounded" id="icon-imob">
                       home_work
                       </span>
                     <p class="card-text">Quando a empresa conta com uma assessoria jurídica, ela passa a destinar mais tempo aos negócios. Assim, gasta menos e lucra mais.</p>
-                    <a href="#" class="btn btn-primary">Mais Informações</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalHome">Mais Informações</button>
                   </div>
                 </div>
               </div>
@@ -96,7 +97,7 @@
             <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
           </svg>  FALE VIA WHATSAPP</button></a>
         </div> 
-        <h1 id="history">ÁREAS DE ATUAÇÃO</h1>
+      
         
       <div class="row">
         <div class="col col-md-2" id="col-img">
@@ -211,7 +212,92 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2661866160565!2d-43.18119298556031!3d-22.903550743512447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997d02a5d560c7%3A0xc9691b88b775eeba!2sCarderone%20e%20Correa%20Advogadas!5e0!3m2!1spt-BR!2sbr!4v1650335003835!5m2!1spt-BR!2sbr" width="400" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
             <p class="p-contact">Rua do Rosário, 141. Sobreloja 01, sala 201 - Galeria Onix - Centro/RJ<br> CEP: 20041-005</p>    
         </div>
-    </main>
+    <section class="modals-section">
+      <!-- Modal Direito consumidor-->
+<div class="modal fade" id="ModalCostumer" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">Título do modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Costumer
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Modal Direito Trabalhista-->
+ <div class="modal fade" id="ModalWork" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">Título do modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Work
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Modal Direito Civil (Person)-->
+ <div class="modal fade" id="ModalPerson" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">Título do modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+     Person
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Modal Assessoria Imobiliária (Home)-->
+ <div class="modal fade" id="ModalHome" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">Título do modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Assessoria Imobiliária
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </section>
+    
+      </main>
     <footer>
         <div class="footer-bkgrd">
             <div class="final">
@@ -239,6 +325,9 @@
       
 
     </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
