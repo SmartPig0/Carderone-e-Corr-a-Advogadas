@@ -242,12 +242,20 @@ main img {
     color: #DFC7A2;
 }
 
-.wpp-btn{
+.wpp-btn a{
     position: fixed;
     right: 20px;
     bottom: 20px;
     cursor: pointer;
     color: #DFC7A2;
+}
+
+.wpp-btn a:hover{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    color: #342F31;
 }
 
 .btn-wpp-m{
@@ -268,7 +276,6 @@ main img {
     margin-bottom: 20px;
     color: #DFC7A2;
 }
-
 
 .submmit-btn{
     display: flex;
@@ -327,7 +334,7 @@ main img {
 
 .card-body a:hover{
     color: #342F31;
-    background-color: #DFC7A2;
+    background-color: #342F31;
     border-color: #DFC7A2 ;
 }
 
@@ -446,7 +453,7 @@ form{
 }
 
 .p-txt-break{
-    margin-top: -10px;
+    margin-top: -50px;
 }
 
 .form-imputs{
@@ -485,6 +492,18 @@ form{
   #ControlTextarea{
       height: 100px;
   }
+
+  .modal-content{
+      color: #342F31;
+      font-size: 1.5rem;
+      text-align: center;
+ }
+
+ #form-question{
+     width: 500px;
+     margin-left: -20px;
+ }
+
 
 @media (min-width:500px){
    
