@@ -357,6 +357,10 @@ main img {
     font-size: 100px;
 }
 
+form{
+    width: 60%;
+}
+
 @media (min-width:500px){
    
     .img-logo {
