@@ -448,6 +448,44 @@ form{
 .p-txt-break{
     margin-top: -10px;
 }
+
+.form-imputs{
+    color: #342F31;
+    width: 100%;
+}
+
+.form-imputs:focus {
+    color: #342F31;
+    background-color: #fff;
+    border-color: #dfc7a2;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(223, 199, 162, 0.7);
+  }
+
+.form-imputs {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #342F31;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #342F31;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .form-imputs::-webkit-input-placeholder {
+    color: #342F31;
+    opacity: 1;
+  }
+
+  #ControlTextarea{
+      height: 100px;
+  }
+
 @media (min-width:500px){
    
     .img-logo {
