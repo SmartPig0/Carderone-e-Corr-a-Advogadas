@@ -185,6 +185,7 @@ main img {
 
 #history{
     padding: 15px;
+    color: #DFC7A2;
 }
 
 #contact{
@@ -322,7 +323,7 @@ main img {
 
 .card-body{
     text-align: center;
-   color: #342F31;
+    color: #342F31;
     height: 65vh;        
  }
 
@@ -351,7 +352,7 @@ main img {
 
 #icon-cost{
     font-size: 100px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 #icon-work{
     font-size: 100px;
@@ -392,16 +393,16 @@ form{
 .social-medias-png img{
     width: 50px;
     margin: 5px;
+    transition: all ease .3s;
 }
 
-#headingOne,#headingTwo,#headingThree{
+#headingOne,#headingTwo,#headingThree,#headingSeven{
     background: #342F31;
     
 }
 
 #card-body-questions{
     color: #fff;
-    height: 200px;
     text-align: start;
     font-size: 1.1em;
     background: #342F31;
@@ -412,7 +413,7 @@ form{
     width: 100%;
     text-decoration: none;
     font-weight: 500;
-    text-align: center;
+    text-align: start;
 }
 
 .material-symbols-outlined{
@@ -504,7 +505,39 @@ form{
      margin-left: -20px;
  }
 
+ #h1-color,#h2-color{
+    color: #DFC7A2;
+ }
 
+ .text-recall{
+     margin: 20px 0 23px 0;
+ }
+
+ .text-recall2{
+    margin: 3px 0 22px 0;
+}
+
+.card-time{
+    height: 30vh;
+}
+
+.card-time2{
+    height: 35vh;
+}
+
+#questions{
+   margin: 10px 10% 20px 10%;
+  
+}
+
+.arrow-icon{
+    text-align: end;
+    color: #DFC7A2;    
+}
+
+.arrow-btn{
+    display: flex;
+}
 @media (min-width:500px){
    
     .img-logo {
