@@ -531,6 +531,34 @@ form{
 }
 .p-width{
     font-size: 1.2rem;
+    text-align: justify;
+}
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-50px,0,0);
+}
+
+[data-anime="right"]{
+    transform: translate3d(50px,0,0);
+}
+
+[data-anime="top"]{
+    transform: translate3d(0px,-50px,0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.cost-txt{
+    margin-top: -30px;
+    text-align: justify;
 }
 
 @media (max-width:500px){

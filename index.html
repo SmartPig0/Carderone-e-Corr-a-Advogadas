@@ -100,7 +100,7 @@
         </div> 
       <div class="row m-0 media-first">
        <div class="col-md-2 p-0" id="col-img">
-          <div class="animate__animated animate__fadeInLeft animate__delay-1s">
+          <div class="x" data-anime="left">
           <img src="./lib/Elisangela Carderone.jpg" alt="apertando ao maos fehcando processo juridico" class="d-block w-100">
           <p class="girls">Drª. Elisângela Carderone<br> "A nossa capacidade vem de Deus."(2 Coríntios 3:5)</p>
         </div>  
@@ -119,7 +119,7 @@
               </div>
             </div>-->
          <div class="col-md-8 p-0 m-0">
-            <p class="animate__animated animate__fadeInUp animate__delay-2s p-width"><strong><span class="spanclass" >DIREITO DO TRABALHO</span></strong><br>
+            <p class="p-width" data-anime="top"><strong><span class="spanclass" >DIREITO DO TRABALHO</span></strong><br>
             A atuação do Escritório abrange os mais diversos campos das relações trabalhistas, seja na área trabalhista preventiva, consultiva, contenciosa em todas as instâncias judiciais e na área administrativa, bem como assessoramento e consultoria em Segurança do Trabalho.
             Atua em defesa dos trabalhadores e das empresas, oferecendo aos seus clientes, atendimento personalizado e de qualidade, sempre com foco de orientar, prevenir e gerenciar as questões trabalhistas.<br>
             <strong><span class="spanclass">DIREITO CIVEL e CONSUMIDOR</span></strong><br>              
@@ -131,7 +131,7 @@
           
           </div> 
             <div class="col-md-2 p-0" id="col-img2">
-              <div class="animate__animated animate__fadeInRight animate__delay-1s">
+              <div class="x" data-anime="right">
                  <img src="./lib/advogada italia correa.jpeg" alt="apertando ao maos fehcando processo juridico" class="d-block w-100">
                 <p class="girls2">Drª. Itália Corrêa<br>"Quem espera em Deus, é mais que vencedor."</p>
                 <!--<div id="carousel" class="carousel slide" data-bs-ride="carousel">
@@ -150,7 +150,7 @@
             </div>         
           </div>
 
-          <p class="p-txt-break animate__animated animate__fadeInUp animate__delay-2s">
+          <p class="cost-txt" data-anime="rigth">
             <strong><span class="spanclass">DIREITO CONSUMIDOR</span></strong><br>
             Na esfera do direito consumerista, atuamos na prevenção de infrações ao direito do consumidor, com ampla experiência na estruturação e revisão de contratos que envolvam relações de consumo. <br>
             No campo litigioso, estamos habilitados a auxiliar nossos clientes no ajuizamento de ações, na elaboração de defesas e recursos e no acompanhamento processual perante o PROCON, Delegacias do Consumidor, Ministério Público, Juizados Especiais Cíveis e Justiça Comum.<br>
@@ -519,7 +519,52 @@ O Direito Previdenciário é a área jurídica relacionada à previdência e à 
       </div>
     </footer>
     <script>
+   
+   function debounce(func, wait, immediate) {
+  var timeout;
 
+  return function executedFunction() {
+    var context = this;
+    var args = arguments;
+	    
+    var later = function() {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+
+    var callNow = immediate && !timeout;
+	
+    clearTimeout(timeout);
+
+    timeout = setTimeout(later, wait);
+	
+    if (callNow) func.apply(context, args);
+  };
+};
+    
+    
+    
+    const target = document.querySelectorAll('[data-anime]');
+      const animationClass = 'animate';
+
+      function animeScroll() {
+        const windowTop = window.pageYOffset + ((window.innerHeight * 3)/4);
+        target.forEach(function(element){
+          if((windowTop) > element.offsetTop) {
+            element.classList.add(animationClass);
+          }else {
+            element.classList.remove(animationClass);
+          }
+        })
+      }
+
+      animeScroll();
+
+      if(target.length){
+      window.addEventListener('scroll', debounce(function(){
+        animeScroll();        
+      }, 200));
+    }
 
 
     </script>
