@@ -534,6 +534,13 @@ form{
     text-align: justify;
 }
 
+.btn-wpp-m2{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
 [data-anime] {
     opacity: 0;
     transition: .3s;
@@ -549,6 +556,10 @@ form{
 
 [data-anime="top"]{
     transform: translate3d(0px,-50px,0);
+}
+
+[data-anime="down"]{
+    transform: translate3d(0px,50px,0);
 }
 
 [data-anime].animate{
@@ -649,7 +660,7 @@ form{
     }
 
     #questions{
-        margin: 20px;
+        margin: 15px;
     }
     
     form{
