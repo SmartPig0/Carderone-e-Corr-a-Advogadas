@@ -20,6 +20,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     max-width: 100%;
     color: #342F31;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -48,16 +49,13 @@ h2 {
 p {
     font-size: 1.4em;
     margin: 10px;
-    text-align:justify;
-    line-height: 1.5em;   
-    
+    line-height: 1.5em;
 }
 
 .buttons {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
+    justify-content: center;
+    margin-bottom: -20px;
 }
 
 
@@ -81,7 +79,7 @@ p {
     background: #342F31; 
     box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
     font-size: medium;
-    margin-bottom: 20px;
+    margin: 20px;
     color: #DFC7A2;
 }
 
@@ -94,7 +92,7 @@ p {
     background: #342F31;
     box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
     font-size: medium;
-    margin-bottom: 20px;
+    margin: 20px;
     color: #DFC7A2;
 }
 
@@ -107,7 +105,7 @@ p {
     background: #342F31;
     box-shadow: 2px 2px 5px 2px rgba(173, 173, 173, 0.3);
     font-size: medium;
-    margin-bottom: 20px;
+    margin: 20px;
     color: #DFC7A2;
 }
 
@@ -125,6 +123,7 @@ p {
 
 .values img{
     width: 35%;
+    margin: 10px;
 }
 
 .img-logo {
@@ -197,12 +196,11 @@ main img {
 }
 
 #map {
-    max-width: 100%;
+    width: 100%;
 }
 
 .values{
     display: flex;
-    flex-direction: column;
     margin-bottom: -20px;
 }
    
@@ -296,15 +294,11 @@ main img {
     opacity: 1;
 }
 
-#col-img{    
-    margin: 10px;
-    margin-right:-30px;
+#col-img{ 
     margin-top: 40px;
 }
 
-#col-img2{    
-    margin: 10px;
-    margin-left:-30px;
+#col-img2{  
     margin-top: 40px;
 }
 
@@ -371,7 +365,9 @@ form{
 }
 
 .p-first{
+    margin-top: 20px;
     color: #342F31;
+    text-align: justify;
 }
 
 .p-footer{
@@ -449,10 +445,11 @@ form{
 }
 
 .girls,.girls2{
-    font-size: 1rem;    
-    margin: -20px 0 0 0;
+    font-size: 1rem; 
 }
-
+.p{
+    text-align: justify;
+}
 .p-txt-break{
     margin-top: -50px;
 }
@@ -526,8 +523,7 @@ form{
 }
 
 #questions{
-   margin: 10px 10% 20px 10%;
-  
+   margin: 10px 2% 20px 2%;  
 }
 
 .arrow-icon{
@@ -538,48 +534,110 @@ form{
 .arrow-btn{
     display: flex;
 }
-@media (min-width:500px){
+
+@media (max-width:500px){
    
     .img-logo {
-        background-image: url(./lib/advogados\ imagem\ mesa\ de\ proposta\ .jpg);
+        background-image: url(./lib/Banner-principal-advogado\ e\ cliente.png);
         background-size:100%;
         background-repeat: no-repeat;
-        height: 200px;
+        height: 270px;
     }
 
     .img-logo img{
         visibility: hidden;
-    }    
+    }   
+    
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+    }
 
-    main {
+    .button1{
         margin: 10px;
     }
 
-    .buttons{
-        flex-direction: row;
-        justify-content:space-evenly;    
-        margin-bottom: -50px;    
+    .button2{
+        margin: 10px;
     }
-     
-    #map {
-        width: 100%;
+    .button3{
+        margin: 10px;
     }
-
-    h3 {
-        font-size: 1.5em;
-    }
-
-    p{
-        margin: 20px;
-        font-size: 1.5em;
-    }
-
 
     .values{
-        display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
     }
 
-   
+    .values img{
+        width: 90%;
+    }
     
+    .p-first{
+        font-size: 1.3rem;
+    }
+    .card-body{
+        height: 45vh;
+    }
+    #icon-cost{
+        font-size: 60px;
+        margin-top: -2px;
+        }
+    #text-costicon{
+        margin-top: -10px;
+    }
+    #icon-work{
+        font-size: 60px;
+      
+    }
+    #icon-law{
+        font-size: 60px;
+    }
+    #icon-imob{
+        font-size: 60px;
+    }
+
+    .card{
+        margin: 0px;
+    }
+    .button4{
+        width: 220px;
+    }
+      
+    .img-eli{
+        margin-top: -30px;
+    }
+
+    #col-img{
+        margin-left: 20%;
+        width: 60%; 
+        margin-top: -8px;     
+    }
+    
+    #col-img2{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    margin-top: -8px;
+    }
+
+    #questions{
+        margin: 20px;
+    }
+    
+    form{
+        width: 100%;        
+    }
+    .card-action{
+        margin: 10px;
+    }
+    .media-first{
+        width: 100%;
+    }
+    .card-text{
+        font-size: 1.2rem;
+    } 
+    .girls2{
+        text-align: left;
+    }
 }
