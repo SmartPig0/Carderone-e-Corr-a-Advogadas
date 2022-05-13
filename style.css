@@ -373,6 +373,7 @@ form{
 .p-footer{
     text-align: center;
     align-items: center;
+    font-size: 1rem;
 }
 
 .social-medias-png{
@@ -451,7 +452,8 @@ form{
     text-align: justify;
 }
 .p-txt-break{
-    margin-top: -50px;
+    margin-top: -30px;
+    font-size: 1.2rem;
 }
 
 .form-imputs{
@@ -504,6 +506,7 @@ form{
 
  #h1-color,#h2-color{
     color: #DFC7A2;
+    font-size: 1.2rem;
  }
 
  .text-recall{
@@ -533,6 +536,9 @@ form{
 
 .arrow-btn{
     display: flex;
+}
+.p-width{
+    font-size: 1.2rem;
 }
 
 @media (max-width:500px){
@@ -574,7 +580,7 @@ form{
     }
     
     .p-first{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .card-body{
         height: 45vh;
@@ -617,7 +623,7 @@ form{
     #col-img2{
     width: 60%;
     margin-left: 20%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-top: -8px;
     }
 
@@ -639,5 +645,16 @@ form{
     } 
     .girls2{
         text-align: left;
+    }
+    .card-time{
+        height: 35vh;
+    }
+    
+    .card-time3{
+        height: 60vh;
+    }
+    #form-question{
+        width: 400px;
+        margin-left: -20px;
     }
 }
