@@ -286,14 +286,6 @@ main img {
  --animate-duration: 2s;
  }
 
-.init-hidden{
-    opacity: 0;
-}
-
-.init-hidden-off{
-    opacity: 1;
-}
-
 #col-img{ 
     margin-top: 40px;
 }
@@ -547,7 +539,7 @@ form{
         background-image: url(./lib/Banner-principal-advogado\ e\ cliente.png);
         background-size:100%;
         background-repeat: no-repeat;
-        height: 270px;
+        height: 280px;
     }
 
     .img-logo img{
@@ -656,5 +648,22 @@ form{
     #form-question{
         width: 400px;
         margin-left: -20px;
+    }
+}
+
+@media (max-width:380px){
+    .card-body{
+        height: 50vh;
+    }
+
+    .card-time{
+    height: 45vh;
+    }
+
+    .card-time3{
+    height: 75vh;
+    }
+    .img-logo{
+        margin-bottom: -20px;
     }
 }

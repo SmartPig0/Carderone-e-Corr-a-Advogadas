@@ -254,7 +254,7 @@
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
-                  <div class="arrow-btn"><button class="btn btn-link" id="btn-collapse" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                  <div class="arrow-btn"><button class="btn btn-link" id="btn-collapse" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseOne">
                     O QUE ACONTECE SE EU NÃO PAGAR A CONTA DE ENERGIA ELÉTRICA ?
                  </button><span class="material-symbols-outlined arrow-icon">
                   expand_more
@@ -274,7 +274,7 @@
             <div class="card">
               <div class="card-header" id="headingTwo">
                 <h5 class="mb-0">
-                  <div class="arrow-btn"><button class="btn btn-link collapsed" id="btn-collapse" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+                  <div class="arrow-btn"><button class="btn btn-link collapsed" id="btn-collapse" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseTwo">
                     NÃO CONTRIBUI COM O INSS, TEM ALGUM BENEFÍCIO QUE EU POSSA RECEBER ?
                   </button><span class="material-symbols-outlined arrow-icon">
                     expand_more
@@ -518,18 +518,9 @@ O Direito Previdenciário é a área jurídica relacionada à previdência e à 
         </svg></a>
       </div>
     </footer>
+    <script>
 
-   <script>
 
-      const observer = new IntersectionObserver(entries => {
-        entries[0].target.classList.add('init-hidden-off')
-        console.log(entries)
-      })
-
-      Array.from(document.querySelectorAll('.init-hidden')).forEach(element => {
-        observer.observe(element)
-      })
-      
 
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
