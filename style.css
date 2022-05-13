@@ -623,7 +623,7 @@ form{
     #col-img2{
     width: 60%;
     margin-left: 20%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-top: -8px;
     }
 
@@ -646,5 +646,15 @@ form{
     .girls2{
         text-align: left;
     }
+    .card-time{
+        height: 35vh;
+    }
     
+    .card-time3{
+        height: 60vh;
+    }
+    #form-question{
+        width: 400px;
+        margin-left: -20px;
+    }
 }
