@@ -575,7 +575,7 @@ form{
 @media (max-width:500px){
    
     .img-logo {
-        background-image: url(./lib/Banner-principal-advogado\ e\ cliente.png);
+        background-image: url(./lib/Banner-principal-advogado\ e\ cliente2.png);
         background-size:100%;
         background-repeat: no-repeat;
         height: 280px;
@@ -660,7 +660,7 @@ form{
     }
 
     #questions{
-        margin: 15px;
+        margin: 10px;
     }
     
     form{
