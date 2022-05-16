@@ -707,3 +707,36 @@ form{
         margin-bottom: -20px;
     }
 }
+
+@media(min-width: 1290px){
+
+    .values img{
+        width: 30%;
+    }
+    .p-first{
+        font-size: 1.8rem;
+        padding-top: 5px;
+    }
+    .card-body{
+        height: 35vh;
+    }
+
+    .card-time{
+    height: 20vh;
+    }
+    .card-time2{
+       height: 20vh;
+    }
+    .card-time3{
+    height: 25vh;
+    }
+    .button4-wide{
+        margin-top: -500px;
+    }
+    .p-width{
+        font-size: 1.4rem;
+    }
+    .p-cost{
+        font-size: 1.4rem;
+    }
+}
