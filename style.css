@@ -365,7 +365,7 @@ form{
 .p-footer{
     text-align: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 .social-medias-png{
@@ -570,9 +570,127 @@ form{
 .cost-txt{
     margin-top: -30px;
     text-align: justify;
+    font-size: 1.2rem;
+}
+.card-time3{
+    height: 40vh;
 }
 
-@media (max-width:500px){
+@media (min-width:1801px){
+    .p-first{
+        font-size: 1.7rem;
+        padding-top: 20px;
+    }
+    .p-width{
+        font-size: 1.7rem;
+        padding-bottom: 20px;
+    }
+    .cost-txt{
+        font-size: 1.7rem;
+    }
+    #card-body-questions{
+        font-size: 1.7rem;
+    }  
+    #btn-collapse{
+        font-size: 1.6rem;
+    }
+    .p-footer{
+        font-size: 1.7rem;
+    } 
+    .values img{
+        width: 25%;
+    } 
+    .card-text{
+        font-size: 1.6rem;
+    }
+    #card-body-first{
+        height: 40vh;
+    }
+}
+
+@media (min-width:1501px) and (max-width:1800px){
+    .p-first{
+        font-size: 1.5rem;
+        padding-top: 20px;
+    }
+    .p-width{
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    .cost-txt{
+        font-size: 1.5rem;
+    }
+    #card-body-questions{
+        font-size: 1.5rem;
+    }  
+    #btn-collapse{
+        font-size: 1.4rem;
+    }
+    .p-footer{
+        font-size: 1.5rem;
+    } 
+    .values img{
+        width: 30%;
+    } 
+    .card-text{
+        font-size: 1.4rem;
+    }
+    #card-body-first{
+        height: 50vh;
+    }
+}
+
+@media (min-width: 1271px) and (max-width:1500px){
+    #card-body-first{
+        height: 60vh;
+    }
+    .p-width{
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1270px){
+    .values img{
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .p-first{
+        font-size: 1.2rem;
+    }
+    .p-width{
+        font-size: 1.2rem;
+        padding-bottom: 20px;
+    }
+   #card-body-first{
+        height: 75vh;
+    }
+    .card-time3{
+        height: 50vh;
+    }
+}
+
+@media (min-width:510px) and (max-width: 800px){
+    .button1{
+        width: 160px;
+    }
+    .button2{
+        width: 160px;
+    }
+    .button3{
+        width: 160px;
+    }
+    .p-first{
+        font-size: 1rem;
+    }
+    .values img{
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:500px) {
    
     .img-logo {
         background-image: url(./lib/Banner-principal-advogado\ e\ cliente2.png);
@@ -707,75 +825,4 @@ form{
         margin-bottom: -20px;
     }
 }
-
-@media(min-width: 1020px) and (max-width: 1270px) and (min-height: 500px) and (max-height:610px){
-
-    .values img{
-        width: 30%;
-    }
-    .p-first{
-        font-size: 1rem;
-        padding-top: 5px;
-    }
-    .card-body{
-        height: 55vh;
-    }
-    .card-time{
-    height: 20vh;
-    }
-    .card-time2{
-       height: 20vh;
-    }
-    .card-time3{
-    height: 25vh;
-    }
-    .button4-wide{
-        margin-top: -10px;
-    }
-    .p-width{
-        font-size: 1rem;
-    }
-    .p-cost{
-        font-size: 1rem;
-    }
-    .card-text{
-        font-size: .9rem;
-    }
-    .modal-body{
-        font-size: 1rem;
-    }
-    #card-body-questions{
-        font-size: 1rem;
-    }
-    #btn-collapse{
-        font-size: .8rem;
-    }
-    form{
-        font-size: 1rem;
-    }
-    .cost-txt{
-        font-size: 1rem;
-    }
-    #icon-cost{
-        font-size: 50px;
-        
-    }
-    #icon-work{
-        font-size: 50px;
-        
-    }
-    #icon-law{
-        font-size: 50px;
-    }
-    #icon-imob{
-        font-size: 50px;
-    }
-}
-    @media (min-width: 1020px) and (max-width: 1270px) and (min-height: 620px) and (max-height:800px){
-        
-        .cost-txt{
-            font-size: 1.2rem;
-        }
-    
-    }
 
