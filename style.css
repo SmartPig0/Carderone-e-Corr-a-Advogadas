@@ -576,6 +576,38 @@ form{
     height: 40vh;
 }
 
+@media (min-width:1801px){
+    .p-first{
+        font-size: 1.7rem;
+        padding-top: 20px;
+    }
+    .p-width{
+        font-size: 1.7rem;
+        padding-bottom: 20px;
+    }
+    .cost-txt{
+        font-size: 1.7rem;
+    }
+    #card-body-questions{
+        font-size: 1.7rem;
+    }  
+    #btn-collapse{
+        font-size: 1.6rem;
+    }
+    .p-footer{
+        font-size: 1.7rem;
+    } 
+    .values img{
+        width: 25%;
+    } 
+    .card-text{
+        font-size: 1.6rem;
+    }
+    #card-body-first{
+        height: 40vh;
+    }
+}
+
 @media (min-width:1501px) and (max-width:1800px){
     .p-first{
         font-size: 1.5rem;
