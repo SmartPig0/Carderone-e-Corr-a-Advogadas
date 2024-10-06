@@ -310,7 +310,7 @@ main img {
 .card-body{
     text-align: center;
     color: #342F31;
-    height: 65vh;        
+    min-height: 65vh;        
  }
 
 .card-body a{
